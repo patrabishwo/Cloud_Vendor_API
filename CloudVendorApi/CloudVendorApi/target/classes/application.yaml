@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud_vendor?useSSL=false
+    username: root
+    password: binod
+
+#spring:
+#  datasource:
+#    hikari:
+#      jdbc-url: jdbc:mysql://localhost:3306/cloud_vendor?useSSL=false
+#      username: root
+#      password: binod
+    #JPA setting p
+
+  jpa:
+    hibernate:
+      ddl-auto: create
